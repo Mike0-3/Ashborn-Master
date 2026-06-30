@@ -29,7 +29,7 @@ class Settings:
 def load_settings() -> Settings:
     guild_id_raw = os.getenv("APP_GUILD_ID", "").strip()
     return Settings(
-        discord_token=os.getenv("MTUyMTUwOTg3NTc1NzM1MDkzMg.G5X_eV.4OCOFfjkhqjb81-QYTfGY1xwIZjgwzjUn0Ok6Q", "").strip(),
+        discord_token=os.getenv("DISCORD_TOKEN", "").strip(),
         app_guild_id=int(guild_id_raw) if guild_id_raw else None,
         ai_api_key=os.getenv("AI_API_KEY", "").strip() or None,
         ai_base_url=os.getenv("AI_BASE_URL", "https://api.openai.com/v1").strip(),
