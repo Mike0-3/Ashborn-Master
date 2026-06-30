@@ -1,0 +1,50 @@
+{
+  "channels": [
+    {
+      "channel_id": 111111111111111111,
+      "guild_id": 222222222222222222,
+      "title": "Catacombe di Velmora",
+      "setting": "Corridoi umidi, lapidi spezzate e bracieri verdi alimentati da necromanzia residuale.",
+      "danger_level": "alto",
+      "ambience_url": "https://example.com/ambient/catacombs.mp3",
+      "enemies": [
+        {
+          "name": "Scheletro Guardia",
+          "hp": 18,
+          "defense": 12,
+          "atk_bonus": 4,
+          "damage": "1d8+2",
+          "description": "Un guardiano antico armato di lancia corrosa."
+        },
+        {
+          "name": "Acolito Putrescente",
+          "hp": 14,
+          "defense": 11,
+          "atk_bonus": 3,
+          "damage": "1d6+2",
+          "description": "Un servo della cripta coperto di bende marcite."
+        }
+      ],
+      "loot": [
+        {
+          "name": "Pozione Minore",
+          "rarity": "comune",
+          "weight": 40,
+          "description": "Ripristina una piccola quantità di salute."
+        },
+        {
+          "name": "Chiave Ossidata",
+          "rarity": "non comune",
+          "weight": 18,
+          "description": "Apre un vecchio sacrario laterale."
+        },
+        {
+          "name": "Anello del Becchino",
+          "rarity": "raro",
+          "weight": 4,
+          "description": "Freddo al tatto, emette un tenue bagliore verdastro."
+        }
+      ]
+    }
+  ]
+}
